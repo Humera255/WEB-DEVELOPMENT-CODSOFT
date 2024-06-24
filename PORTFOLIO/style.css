@@ -1,0 +1,167 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color:#418972;
+	padding: 20px;
+	text-align: center;
+}
+
+header h1 {
+	margin: 0;
+}
+.profile-image-container {
+	text-align: center;
+  }
+  
+  .profile-image {
+	display: block;
+	margin: 0 auto;
+	max-width: 250%;
+	height: auto;
+	border-radius: 50%;
+  }
+  
+  .profile-image-description {
+	font-style: italic;
+	font-weight: bold;
+	margin-top: 10px; 
+  }
+
+#about {
+	background-color: #fff;
+	padding: 20px;
+    font-weight: bold;
+    color: rgb(107, 71, 24);
+}
+
+#about img {
+	width: 150px;
+	height: 140px;
+	border-radius: 50%;
+	margin: 30px;
+    
+}
+
+#skills {
+	background-color: #f7f7f7;
+	padding: 20px;
+    position: relative;
+}
+#skills h2 {
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 20px; 
+  }
+  #skills ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#skills li {
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	flex-basis: 30%; 
+	margin: 20px; 
+	text-align: center
+}
+
+#skills img {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+
+#skills span {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#projects {
+	background-color: #fff;
+	padding: 20px;
+}
+
+.project {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.project img {
+	width: 40%;
+	height: 280px;
+	object-fit: cover;
+	border-radius: 10px;
+	display: block;
+	margin: 0 auto;
+
+}
+
+  .project p {
+	font-style: italic;
+	font-weight: bold;
+  }
+  #resume, #contact {
+	text-align: center;
+  }
+  
+  #resume h2, #contact h2 {
+	font-weight: bold;
+	margin-bottom: 20px; 
+  }
+  
+  #resume p, #contact p {
+	text-align: center;
+	margin-bottom: 20px;
+  }
+  #resume {
+	background-color: #f7f7f7;
+	padding: 20px;
+}
+.download-resume {
+	background-color: #07466f; 
+  color: #ffffff;
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer; 
+  display: inline-block;
+  font-size: 16px; 
+  font-weight: bold; 
+  transition: background-color 0.2s ease; 
+}
+
+  
+  .download-resume:hover {
+	background-color: #455545; 
+  }
+  #contact a {
+	text-decoration: none;
+	color: #337ab7;
+  }
+  
+  #contact a:hover {
+	color: #23527c; 
+  }
+
+
+
+#contact {
+	background-color: #a79090;
+	padding: 20px;
+}
+
+footer {
+	background-color: #333;
+	color: #efeaea;
+	padding: 10px;
+	text-align: center;
+}
